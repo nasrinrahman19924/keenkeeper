@@ -10,7 +10,7 @@ export default function FriendDetails() {
   const [friend, setFriend] = useState(null);
 
   useEffect(() => {
-    fetch("https://keenkeeper.onrender.com/data/friends.json")
+    fetch("/data/friends.json")
       .then(res => res.json())
       .then(data => {
         const found = data.find(f => f.id == id);
