@@ -8,7 +8,7 @@ export default function Home() {
   const [friends, setFriends] = useState(null);
 
   useEffect(() => {
-    fetch("/data/friends.json")
+    fetch("https://keenkeeper.onrender.com/data/friends.json")
       .then(res => res.json())
       .then(data => setFriends(data));
   }, []);
