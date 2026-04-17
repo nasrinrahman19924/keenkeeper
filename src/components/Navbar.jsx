@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-between p-4 shadow">
-      <h1 className="text-3xl font-bold">Keen<span className="text-green-700">Keeper</span></h1>
+      <h1 className="text-3xl font-bold">Keen<span className="text-green-800">Keeper</span></h1>
       <div className="flex gap-6">
         {navItem("/", "Home", FaHome)}
         {navItem("/timeline", "Timeline", FaClock)}
