@@ -11,3 +11,9 @@ Project Name: keenkeeper
 --TailwindCSS
 --Eslint
 --Recharts
+
+$$$ Features $$$
+
+---Friends Track
+---Timeline Logging
+---Analytics Dashboard
