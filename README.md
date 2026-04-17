@@ -1,18 +1,18 @@
 Project Name: keenkeeper
 
 
-##Description##
+## Description ##
 
 ==>  A friendship tracking app to maintain meaningful relationships.
 
-@@@TECH STACK@@@
+## TECH STACK @@@
 
 --Nest.js
 --TailwindCSS
 --Eslint
 --Recharts
 
-$$$ Features $$$
+### Features $$$
 
 ---Friends Track
 ---Timeline Logging
